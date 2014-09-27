@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+	<meta charset="UTF-8">
+	<title>ngInclude test</title>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body  ng-app="app">
+
+	<div ng-controller="ExampleController as vm" >
+  <!-- <div ng-controller="ExampleController as vm" ng-cloak> -->
+  <div ng-repeat="value in vm.values">
+    {{value.name}} - {{value.value}}
+  </div>
+
+  <div ng-repeat="value in vm.values">
+    {{value.name}} - {{value.value}}
+  </div>
+
+    <div ng-repeat="value in vm.values">
+    {{value.name}} - {{value.value}}
+  </div>
+
+  <div ng-repeat="value in vm.values">
+    {{value.name}} - {{value.value}}
+  </div>
+
+  <div ng-repeat="value in vm.values">
+    {{value.name}} - {{value.value}}
+  </div>
+
+  <div ng-repeat="value in vm.values">
+    {{value.name}} - {{value.value}}
+  </div>
+
+  <div ng-repeat="value in vm.values">
+    {{value.name}} - {{value.value}}
+  </div>
+
+  <div ng-repeat="value in vm.values">
+    {{value.name}} - {{value.value}}
+  </div>
+
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+ <script src="ExampleController.js"></script>
+</body>
+</html>
